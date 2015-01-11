@@ -2,7 +2,7 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
+    // border-top: 5px solid $grey-color-dark;
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
 
@@ -11,12 +11,13 @@
 }
 
 .site-title {
-    font-size: 26px;
+    font-size: 42px;
     line-height: 56px;
-    letter-spacing: -1px;
+    // letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
-
+    font-family: 'Lovers Quarrel', cursive;
+    font-weight: 500;
     &,
     &:visited {
         color: $grey-color-dark;
@@ -84,6 +85,37 @@
             padding: 5px 10px;
         }
     }
+}
+
+/* Body Intro syntax */
+#intro {
+    margin-top: 40px
+}
+
+#headline {
+    text-align: center;
+}
+
+#potrait {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.nav-tabs > li, .nav-pills > li {
+    float:none;
+    display:inline-block;
+    *display:inline; /* ie7 fix */
+     zoom:1; /* hasLayout ie7 trigger */
+}
+
+.nav-tabs, .nav-pills {
+    text-align:center;
+}
+#menu {
+    text-align: center;
 }
 
 
