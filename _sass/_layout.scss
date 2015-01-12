@@ -22,6 +22,7 @@
     margin-top: 40px;
 }
 
+
 #headline {
     text-align: center;
 }
@@ -51,6 +52,17 @@ h2 {
     text-align: center;
 }
 
+/* progress bar styling */
+.progress {background: rgba(245, 245, 245, 1); border: 0px solid rgba(245, 245, 245, 1); border-radius: 25px; height: 20px;}
+.progress-bar-custom {background: rgba(0, 136, 255, 1);}
+
+#abouttext {
+    text-align: justify;
+}
+
+ul {
+    list-style: none;
+}
 
 /* footer */
 
