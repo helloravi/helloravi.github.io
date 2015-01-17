@@ -43,11 +43,18 @@ body {
 h1 {
     text-align: center;
     font-family: 'Kaushan Script', cursive;
+    padding-top: 30px;
     
 }
 
+#projects img {
+    width: 315px;
+    height: 213px;
+}
+
+
 #about li{
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 #headline h1 {
@@ -81,6 +88,10 @@ h1 {
 
 ul {
     list-style: none;
+}
+
+.col-sm-10 .col-sm-4 {
+    padding:0;
 }
 
 /* footer */
