@@ -1,6 +1,9 @@
 // Common for all demos
 $width: 290px;
 $height:230px;
+$paddingl: 3px;
+$paddingt: 7px;
+$readmore: 14px;
 
 .view {
    width: $width;
@@ -51,7 +54,8 @@ $height:230px;
 .view a.info {
    display: inline-block;
    text-decoration: none;
-   padding: 7px 14px;
+   font-size: $readmore;
+   padding: $paddingl $paddingt;
    background: #000;
    color: #fff;
    text-transform: uppercase;
