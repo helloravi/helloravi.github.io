@@ -155,8 +155,38 @@ layout: default
         </div>
         <div class="tab-content">
             <div class="tab-pane active" id="tab1">
-              <div class="col-sm-4 view view-tenth" style="">
-         <!--        <a data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample"><img src="assets/simpsons-music.jpg" alt="" class="img-thumbnail" max-width: 100%; max-height=100%;></a> -->
+
+
+
+              <div class="col-sm-4 view view-tenth"><img src="assets/rideshare.png" alt="" class="img-thumbnail" max-width: 100%; max-height=100%;>
+              <div class="mask">
+                  <h2>Cabshare</h2>
+                  <p>Rails based Cab-sharing application which lets you share a ride with someone travelling along the same route.</p>
+                  <a href="#rideshare" class="info" data-toggle="modal">Read More</a>
+                </div>
+       <!-- Modal -->
+                <div class="modal fade" id="rideshare" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                  <div class="modal-dialog">
+                    <div class="modal-content">
+                      <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                        <h4 class="modal-title" id="myModalLabel">Cabshare</h4>
+                      </div>
+                      <div class="modal-body">
+                        <p><strong>About:</strong> Cabshare is an application created to share cab expenses for longer travels. A example route would be from a college to airport and vice-versa</p>
+                        <p><strong>How It Works:</strong> Cabshare matches people traveling from nearby origin to nearby destination points. The application takes the origin and destination points of two people and finds the sum of distance between origin points and destination points. If the sum is below a certain limit the ride is matched. </p>
+                        <p>For a <strong>demo</strong> please visit <a href="http://sharecab.herokuapp.com/">Cabshare</a></p>
+                        <p>You can take a look at the <strong>source code</strong> <a href="">here</a>. You might need permission to access it.</p>
+                      </div>
+                      <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-sm-4 view view-tenth">
                 <img src="assets/simpsons-music.jpg" alt="" class="img-thumbnail" max-width: 100%; max-height=100%;>
                   <div class="mask">
                         <h2>Rhythm Tapper</h2>
@@ -172,7 +202,10 @@ layout: default
                         <h4 class="modal-title" id="myModalLabel">Rhythm Tapper</h4>
                       </div>
                       <div class="modal-body">
-                        ...
+                        <p><strong>About:</strong> Rhythm Tapper is an application that lets you tap to a given song. The application currently has only song to which one can tap.</p>
+                        <p><strong>How It Works:</strong> Rhythm Tapper contains a master array which contains the timestamps at which one has to tap. The application records the timestamps of your taps and matches with the master array. Depending how accurately you tap a colour between red and green will be displayed on the page. </p>
+                        <p>For a <strong>demo</strong> please visit <a href="http://rhythmatic.herokuapp.com/">Cabshare</a></p>
+                        <p>You can take a look at the <strong>source code</strong> <a href="https://bitbucket.org/helloravi/rhythmtapper">here</a>. You might need permission to access it.</p>
                       </div>
                       <div class="modal-footer">
                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -198,7 +231,10 @@ layout: default
                         <h4 class="modal-title" id="myModalLabel">Twitter Clone</h4>
                       </div>
                       <div class="modal-body">
-                        ...
+                        <p><strong>About:</strong> Twitter clone is an application created using a tutorial to mimic Twitter </p>
+                        <p><strong>How It Works:</strong> Twitter clone lets users create microposts and follow each other. </p>
+                        <p>For a <strong>demo</strong> please visit <a href="https://ravihartl.herokuapp.com">Cabshare</a></p>
+                        <p>You can take a look at the <strong>source code</strong> <a href="https://bitbucket.org/helloravi/sample_app">here</a>. You might need permission to access it.</p>
                       </div>
                       <div class="modal-footer">
                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -210,7 +246,7 @@ layout: default
               <div class="col-sm-4 view view-tenth"><img src="assets/love.jpg" alt="" class="img-thumbnail" max-width: 100%; max-height=100%;>
               <div class="mask">
                 <h2>Flames Game</h2>
-                <p>A simple application which takes two names adn returns a purported relation between those two names.</p>
+                <p>A simple application which takes two names and returns a purported relation between those two names.</p>
                 <a href="#flames" class="info" data-toggle="modal">Read More</a>
                 </div>
             <!-- Modal -->
@@ -222,7 +258,10 @@ layout: default
                         <h4 class="modal-title" id="myModalLabel">Flames Game</h4>
                       </div>
                       <div class="modal-body">
-                        ...
+                        <p><strong>About:</strong> Flames is a fun which kids play using names of their friends </p>
+                        <p><strong>How It Works:</strong> Two names are taken; common letters are removed. The remaining letters are counted. The total number is counted as a loop over the word "FLAMES". A letter is chosen and displayed.</p>
+                        <p>For a <strong>demo</strong> please visit <a href="https://helloravi.herokuapp.com/flames/jindex">Cabshare</a></p>
+                        <p>You can take a look at the <strong>source code</strong> <a href="https://bitbucket.org/helloravi/profile">here</a>. The relevant code is in the jindex view.</p>
                       </div>
                       <div class="modal-footer">
                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -232,31 +271,6 @@ layout: default
                 </div>
               </div>
 
-
-              <div class="col-sm-4 view view-tenth"><img src="assets/rideshare.png" alt="" class="img-thumbnail" max-width: 100%; max-height=100%;>
-              <div class="mask">
-                  <h2>Cabshare</h2>
-                  <p>Rails based Cab-sharing application which lets you share a ride with someone travelling along the same route.</p>
-                  <a href="#rideshare" class="info" data-toggle="modal">Read More</a>
-                </div>
-       <!-- Modal -->
-                <div class="modal fade" id="rideshare" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-                  <div class="modal-dialog">
-                    <div class="modal-content">
-                      <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                        <h4 class="modal-title" id="myModalLabel">Cabshare</h4>
-                      </div>
-                      <div class="modal-body">
-                        ...
-                      </div>
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
 
 
               <div class="col-sm-4 view view-tenth"><img src="assets/chat.jpg" alt="" class="img-thumbnail" max-width: 100%; max-height=100%;>
@@ -274,7 +288,9 @@ layout: default
                         <h4 class="modal-title" id="myModalLabel">Chat</h4>
                       </div>
                       <div class="modal-body">
-                        ...
+                        <p><strong>About:</strong> A simple chat application which one can use to chat live </p>
+                        <p><strong>How It Works:</strong> The application uses long polling to implement live chat </p>
+                        <p>You can take a look at the <strong>source code</strong> <a href="https://github.com/helloravi/chat">here</a>.</p>
                       </div>
                       <div class="modal-footer">
                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
