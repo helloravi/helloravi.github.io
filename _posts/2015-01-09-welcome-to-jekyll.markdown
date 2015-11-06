@@ -13,9 +13,9 @@ This delivers two benefits:
 I am keeping this as a document for reference in the future. This lists source code links and details of the features I played around with.
 
 
-FAQ Chevron:
+###FAQ Chevron:
 When I had to implement a collapsible FAQ which has a different type of chevron depending on whether the FAQ is closed or open.
 
-https://github.com/helloravi/faqchevron
+[https://github.com/helloravi/t-faq-chevron](https://github.com/helloravi/t-faq-chevron)
 
 AngularJs, Bootstrap collapse and collapse events are used to build this feature.
