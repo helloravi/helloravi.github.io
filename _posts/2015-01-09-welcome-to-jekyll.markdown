@@ -4,22 +4,18 @@ title:  "Welcome to Jekyll!"
 date:   2015-01-09 11:35:38
 categories: jekyll update
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+One of the most powerful ways of going about implementing new features is play around them in test apps and later implement in the real project.
 
-To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
+This delivers two benefits:
+1. It allows us to focus on that particular aspect of the feature
+2. It relieves us of the burden of overplaying on the real project. You only start implementing features once you think you have explored that particular aspect enough.
 
-Jekyll also offers powerful support for code snippets:
+I am keeping this as a document for reference in the future. This lists source code links and details of the features I played around with.
 
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
 
-Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll’s dedicated Help repository][jekyll-help].
+FAQ Chevron:
+When I had to implement a collapsible FAQ which has a different type of chevron depending on whether the FAQ is closed or open.
 
-[jekyll]:      http://jekyllrb.com
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-help]: https://github.com/jekyll/jekyll-help
+https://github.com/helloravi/faqchevron
+
+AngularJs, Bootstrap collapse and collapse events are used to build this feature.
