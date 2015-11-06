@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Links and Description to My Play Apps"
 date:   2015-01-09 11:35:38
 categories: jekyll update
 ---
