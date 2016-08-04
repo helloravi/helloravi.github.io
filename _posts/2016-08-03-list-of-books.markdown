@@ -4,7 +4,6 @@ title:  "List of books I plan to read"
 date:   2016-08-03 11:35:38
 categories: books
 ---
-# List of books I plan to read
 ### Programming/Technical books
 1. Confident Ruby: 32 Patterns for Joyful Coding ***(in progress)***
 2. Practical Object-Oriented Design in Ruby: An Agile Primer
