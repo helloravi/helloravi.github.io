@@ -2,7 +2,7 @@
 layout: post
 title:  "Links and Description to My Play Apps"
 date:   2015-01-09 11:35:38
-categories: jekyll update
+categories: apps
 ---
 One of the most powerful ways of going about implementing new features is play around them in test apps and later implement in the real project.
 
