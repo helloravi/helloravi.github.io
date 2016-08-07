@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "How to mute all notification and messsaging sounds in android phones"
-date:   2016-08-05 11:35:38
+date:   2016-08-06 11:35:38
 categories: productivity
 ---
 
@@ -19,7 +19,7 @@ I asked a friend of mine(Rahul from Samosa) to send a 1 second muted clip and ch
 notification tone to that. I hear nothing whenever there is a notification or
 when there is a message (WhatsApp or otherwise)
 
-Here is a link to the [one second muted mp3 file]({{ site.url }}/downloads/muted_one_sec.mp3)
+Here is a link to the [one second muted mp3 file]({{ site.baseurl }}/downloads/muted_one_sec.mp3)
 
 **next steps: Lots of problem seem to have this problem I should send them this
 link and probably build my first android app using this idea"
