@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Understanding yield and blocks in Ruby"
-date:   2016-08-05 11:35:38
+date:   2016-08-04 11:35:38
 categories: books
 ---
 ## Why do we need yield and blocks in Ruby?
