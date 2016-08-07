@@ -21,5 +21,7 @@ when there is a message (WhatsApp or otherwise)
 
 Here is a link to the [one second muted mp3 file]({{ site.baseurl }}/downloads/muted_one_sec.mp3)
 
+#### Right click on the link and hit "save link as" to download
+
 **next steps: Lots of problem seem to have this problem I should send them this
 link and probably build my first android app using this idea"
