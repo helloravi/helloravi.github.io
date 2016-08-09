@@ -1,5 +1,5 @@
 ---
-title: Quotes
+title: Favourite Quotes
 layout: default
 permalink: /quotes/
 ---
