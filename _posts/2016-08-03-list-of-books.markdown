@@ -6,7 +6,10 @@ categories: books
 ---
 >Some books are to be tasted, others to be swallowed, and some few to be chewed and digested.
 
-## Books are rated as tasted, swallowed, chewed and digested, can cook depending up on how well I have read them
+## Books are rated as tasted, swallowed, chewed and digested, can cook depending up on how well I have read them.
+
+"*Tasted*" implies I have a good overview. "*Swallowed*" implies I have gone through and thought about
+implementation details of some of the ideas. "*Chewed and digested*" implies I have gone through the implementation details of most of the ideas in the book. "*can cook*" implies I have read and referenced it multiple times.
 
 ### Programming/Technical books
 1. Confident Ruby: 32 Patterns for Joyful Coding ***(swallowed)***
