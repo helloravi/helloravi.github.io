@@ -17,9 +17,9 @@ Then I get into the most relevant details of of the areas I need to learn and
 then I get into other chapters.
 
 ## How to get an overview
-Read the introduction.
-Read the conclusion at the end of the book.
-Read the summaries/salient points at the end of every chapter.
+1. Read the introduction.
+2. Read the conclusion at the end of the book.
+3. Read the summaries/salient points at the end of every chapter.
 
 By the end of this you get a pretty good overview of what is in the book. If
 the summaries are well written then you will have a pretty good idea of the
