@@ -19,6 +19,7 @@ implementation details of some of the ideas. "*Chewed and digested*" implies I h
 5. Rebuilding Rails
 6. Ruby Under a Microscope
 7. How Linux works - What every super user needs to know - Brian Ward
+8. Exceptional Ruby: Master the Art of Handling Failure in Ruby by Avdi Grim
 
 
 ### Non-programming books
