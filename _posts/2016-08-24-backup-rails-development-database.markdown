@@ -18,11 +18,13 @@ There is a quick-fix solution which may be very useful.
 
 Given that you are using sqlite3 as the development database, you will find the file
 `development.sqlite3` in the `RAILS_ROOT/db/` folder. Copy this file to a safe place
-when you want to back up a specific data-state in rails.
+when you want to back up a specific data-state in rails. Repeat the same with `/public/`
+folder. You have to do a recursive copy (use `cp -R`). If you have any files they
+will be stored in this.
 
 Play around with the application and when you want to restore the application to
 the previous data-state replace the existing `RAILS_ROOT/db/development.sqlite3`
-with the `development.sqlite3` you backedup.
+with the `development.sqlite3` you backedup. Do the same with `\public\` folder.`
 
 You have `reload!` your `rails console` and `restart` your `rails server` for the
 backedup database to come into effect.
