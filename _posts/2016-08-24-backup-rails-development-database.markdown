@@ -1,16 +1,16 @@
 ---
 layout: post
 title:  "How to back up your rails development database"
-date:   2016-08-14 05:42:38
+date:   2016-08-24 05:42:38
 categories: rails
 ---
 
-##Problem
+## Problem
 When I build features I end up wanting a certain data-state of database which is
 very useful for me to play around. As I play around with features the database state changes
 and I would want to get back to a specific data-state. I encounter this too often.
 
-##Solution
+## Solution
 One of the solutions is to setup seeds.rb file to create a specific data-state in
 the database.
 
