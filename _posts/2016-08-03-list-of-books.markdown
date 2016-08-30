@@ -37,3 +37,4 @@ implementation details of some of the ideas. "*Chewed and digested*" implies I h
 12. The Twenty Two Immutable Laws of Marketing by Al Ries and Jack Trout
 13. Traction by Gabriel Weinberg and Justin Mares
 14. Ask by Ryan Levesque
+15. Flow: The Psychology of Optimal Experience by Mihaly Csikszentmihalyi 
