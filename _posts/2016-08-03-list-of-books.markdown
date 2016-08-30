@@ -27,3 +27,13 @@ implementation details of some of the ideas. "*Chewed and digested*" implies I h
 2. Start with No - Jim Camp
 3. Games people play - Eric Berne
 4. I am Okay, You are Okay
+5. The Art of War by Sun Tzu
+6. Crucial Conversations by Kerry Patterson, Joseph Grenny, Ron McMillan, and Al Switzler
+7. Critical Chain by Elyahu Goldratt
+8. The Innovators Dilemma by Clayton Christensen
+9. Scientific Advertising By Claude Hopkins.
+10. Only the Paranoid Survive by Andy Grove
+11. The Tipping Point by Malcolm Gladwell
+12. The Twenty Two Immutable Laws of Marketing by Al Ries and Jack Trout
+13. Traction by Gabriel Weinberg and Justin Mares
+14. Ask by Ryan Levesque
