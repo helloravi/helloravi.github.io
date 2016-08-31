@@ -20,6 +20,8 @@ implementation details of some of the ideas. "*Chewed and digested*" implies I h
 6. Ruby Under a Microscope
 7. How Linux works - What every super user needs to know - Brian Ward
 8. Exceptional Ruby: Master the Art of Handling Failure in Ruby by Avdi Grim
+9. The Web Application Hacker's Handbook: Finding and Exploiting Security Flaws
+Note: One need not be an coder to find bugs.  (Source: [quora answer and link](https://www.quora.com/What-was-the-most-magical-moment-of-your-life/answer/Manish-Bhattacharya))
 
 
 ### Non-programming books
@@ -37,4 +39,4 @@ implementation details of some of the ideas. "*Chewed and digested*" implies I h
 12. The Twenty Two Immutable Laws of Marketing by Al Ries and Jack Trout
 13. Traction by Gabriel Weinberg and Justin Mares
 14. Ask by Ryan Levesque
-15. Flow: The Psychology of Optimal Experience by Mihaly Csikszentmihalyi 
+15. Flow: The Psychology of Optimal Experience by Mihaly Csikszentmihalyi
