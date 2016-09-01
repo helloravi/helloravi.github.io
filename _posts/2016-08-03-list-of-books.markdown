@@ -40,3 +40,6 @@ Note: One need not be an coder to find bugs.  (Source: [quora answer and link](h
 13. Traction by Gabriel Weinberg and Justin Mares
 14. Ask by Ryan Levesque
 15. Flow: The Psychology of Optimal Experience by Mihaly Csikszentmihalyi
+16. The Millionaire Mind by Thomas J Stanley
+17. The Millionaire Next Door: The Surprising Secrets of America's Wealthy
+18. Stop Acting Rich: ...And Start Living Like A Real Millionaire
