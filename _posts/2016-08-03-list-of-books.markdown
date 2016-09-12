@@ -26,7 +26,7 @@ Note: One need not be an coder to find bugs.  (Source: [quora answer and link](h
 
 ### Non-programming books
 1. Thinking, Fast and Slow - Daniel Kahneman ***(tasted)***
-2. Start with No - Jim Camp
+2. One Small Step Can Change Your Life: The Kaizen Way by  Robert Maurer Ph.D ***(in progress)***
 3. Games people play - Eric Berne
 4. I am Okay, You are Okay
 5. The Art of War by Sun Tzu
@@ -43,4 +43,4 @@ Note: One need not be an coder to find bugs.  (Source: [quora answer and link](h
 16. The Millionaire Mind by Thomas J Stanley
 17. The Millionaire Next Door: The Surprising Secrets of America's Wealthy
 18. Stop Acting Rich: ...And Start Living Like A Real Millionaire
-19. One Small Step Can Change Your Life: The Kaizen Way by  Robert Maurer Ph.D
+19.  Start with No - Jim Camp
