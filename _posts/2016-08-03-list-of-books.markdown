@@ -13,7 +13,7 @@ implementation details of some of the ideas. "*Chewed and digested*" implies I h
 
 ### Programming/Technical books
 1. Confident Ruby: 32 Patterns for Joyful Coding ***(swallowed)***
-2. Practical Object-Oriented Design in Ruby: An Agile Primer ***(in-progress)***
+2. Practical Object-Oriented Design in Ruby: An Agile Primer ***(in-progress - tasting)***
 3. Design patterns in Ruby
 4. Everyday Rails testing with Rspec
 5. Rebuilding Rails
@@ -26,7 +26,7 @@ Note: One need not be an coder to find bugs.  (Source: [quora answer and link](h
 
 ### Non-programming books
 1. Thinking, Fast and Slow - Daniel Kahneman ***(tasted)***
-2. One Small Step Can Change Your Life: The Kaizen Way by  Robert Maurer Ph.D ***(in progress)***
+2. One Small Step Can Change Your Life: The Kaizen Way by  Robert Maurer Ph.D ***(in progress - tasting)***
 3. Games people play - Eric Berne
 4. I am Okay, You are Okay
 5. The Art of War by Sun Tzu
