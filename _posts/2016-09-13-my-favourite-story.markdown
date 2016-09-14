@@ -18,7 +18,7 @@ times divorce was not an option in India. "Sannyas" was misused as a way to get
 
  With determination he continues doing his "tapas". One day he finds a wolf
  with both its front legs chopped off. To his amazement he finds that wolf looks
- well-fed. He is amazed. He wonders how the wolf has been able to hunt and fend
+ well-fed. He wonders how the wolf has been able to hunt and fend
  for itself given its handicap. To find out how this is happening he hides himself
  behind a nearby stone and watches the wolf.
 
@@ -29,11 +29,11 @@ times divorce was not an option in India. "Sannyas" was misused as a way to get
  about the silly worry of feeding himself.
 
  Determined with the message from God, he completely ignores his hunger and just
- focusses on his tapas Two days pass by and he is extremely hungy. Five days pass
- by he is weak. Seven days pass by and he starts moaning. He does not have the energy
+ focusses on his tapas. Two days pass by and he is extremely hungy. Five days pass
+ by and he is weak. Seven days pass by and he starts moaning. He does not have the energy
  to gather food and he cannot bear the hunger.
 
- A Yogi how is passing by hears his moaning and takes pity on him. He feeds
+ A Yogi who is passing by hears his moaning and takes pity on him. He feeds
  this moaning man and enquires about his situation The Sannyasi narrates the
  whole story of the wolf and the lion and the message from God. The Yogi responds:
  "It is definitely a message from God. But why did you choose to be the crippling
