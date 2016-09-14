@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "My Favourite Story"
-date:   2016-08-24 05:42:38
+date:   2016-09-13 05:42:38
 categories: musings
 ---
 
@@ -38,4 +38,3 @@ times divorce was not an option in India. "Sannyas" was misused as a way to get
  whole story of the wolf and the lion and the message from God. The Yogi responds:
  "It is definitely a message from God. But why did you choose to be the crippling
  fox instead of choosing to be the generous Lion"
- 
