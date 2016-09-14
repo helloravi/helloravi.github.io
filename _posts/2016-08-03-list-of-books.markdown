@@ -44,3 +44,4 @@ Note: One need not be an coder to find bugs.  (Source: [quora answer and link](h
 17. The Millionaire Next Door: The Surprising Secrets of America's Wealthy
 18. Stop Acting Rich: ...And Start Living Like A Real Millionaire
 19.  Start with No - Jim Camp
+20. Mind Sculpture: Unlocking Your Brain's Untapped Potential by Ian Robertson
