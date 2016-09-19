@@ -24,3 +24,9 @@ User saves
 ## Learn language through gossip and TV shows
 There is a huge segment of smart people in India who have a language problem.
 Once internet becomes ubiquitous this problem will become a huge opportunity.
+
+## Set up a community puzzle solving app.
+Solving puzzles is fun but solving puzzles is even more fun.
+
+## Book summaries
+Pay portion of the proceeds to the writer.
