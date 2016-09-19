@@ -2,7 +2,8 @@
 layout: post
 title:  "How to back up your rails development database"
 date:   2016-08-24 05:42:38
-categories: rails
+categories: programming
+tags: rails squlite3
 ---
 
 ## Problem

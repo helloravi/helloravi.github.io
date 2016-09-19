@@ -3,6 +3,7 @@ layout: post
 title:  "My Favourite Story"
 date:   2016-09-13 05:42:38
 categories: musings
+tags: stories
 ---
 
 This happend in ancient India. A man who is unable to tolerate the tantrums of
