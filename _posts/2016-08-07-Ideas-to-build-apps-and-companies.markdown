@@ -30,3 +30,9 @@ Solving puzzles is fun but solving puzzles is even more fun.
 
 ## Book summaries
 Pay portion of the proceeds to the writer.
+
+## Turn addiction/compulsion into productivity using a firefox/chrome
+Turn all time leaks into slightly productive activites. Instead of facebook go to
+a programming blog
+
+## Do the same with a mobile app.
