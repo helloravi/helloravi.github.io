@@ -12,6 +12,8 @@ permalink: /resources/
 
 ## My Favourite quotes
 
-### Brands blind you
+>Brands blind you
 
-### Bullshit can get you to the top but it will never let you stay there
+>When art critics get together they talk about Form and Structure and Meaning. When artists get together they talk about where you can buy cheap turpentine - Pablo Picasso
+
+>Bullshit can get you to the top but it will never let you stay there
