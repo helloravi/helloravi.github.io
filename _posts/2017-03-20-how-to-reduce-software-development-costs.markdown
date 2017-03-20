@@ -4,27 +4,12 @@ title:  "How to reduce software development costs by up to 90 percent"
 date:   2017-03-20 05:42:38
 categories: software
 ---
-### The worst question to ask a non-technical client
+
+
+### The worst question to ask a non-technical person
 What do you want?
-When you ask this question they never communicate the problem they want to solve. They have the problem in mind
+When you ask this question they never communicate the problem they want to solve. They usually come up with a solution based on their experience of usage of different websites for the problem they have in mind. They communicate the solution which they came up with instead of communicating the problem they are facing. What is the limitation of doing this?
 
-pencil and pen
-XKCD
+The person coming up with this solution does not know all the different options available if she is not a technical person. That is not the only problem. Somethings are extremely easy for machines and some seemingly very simple things are very hard for machines. If the actual problem can be solved by avoiding the hard parts you will have a solution which is fast and easy to build.
 
-### Key to execution
-The only thing which has worked for me in ensuring execution is brutality. Be absolutely brutal about the things you want to execute well. Keep this list small. Don't fill the day with lists of things you want to do and try to be brutal about it. I have two things I am brutal about and probably going to add one more but I am still unsure of it.
-
-### How to be brutal
-Tie each of your important activities to any of the compulsions you have.
-
-Hunger is a compulsion that I have  and you might too.
-For instance, don't eat your lunch until you are done with having a 3 hour focussed time for yourself at work. Having focussed time to work can be a rarity in many offices. This also helps manage the social distractions. Tell people that they are denying you lunch by interrupting you.
-
-Using my phone is a compulsion for me
-I have a a rule to not touch my phone or use it until I am done with my yoga in the morning. Only when I follow this rule strictly I end up doing everything in the morning. If I slack off a little then it is gone.
-
-### Making execution easy
-If you want to be ensure a certain activity, one of the thing that works is to do it for 45 days. Then you dont have to do it. You just have to prevent yourself from not doing it. That is huge advantage in itself. Seinfeld popularized a [similar strategy](http://jamesclear.com/stop-procrastinating-seinfeld-strategy) if you are interested.
-
-
-I don't know of any other way of ensuring execution. Let me know if you do.
+If you are a non-technical person communicate both the problem and the solution you have in mind. Communicating both of them is important. This provides enough detail into the problem for the tech person to address the problem.
