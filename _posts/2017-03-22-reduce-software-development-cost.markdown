@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "How to reduce software development costs by up to 90 percent"
-date:   2017-03-20 05:42:38
-categories: software
+title:  "How to reduce software development cost by upto 90 percent"
+date:   2017-03-22 05:42:38
+categories: techteam
 ---
 
 
