@@ -9,7 +9,7 @@ One of the important aspects of being good at solving business problems with tec
 is to understand the scope and limitations of different technologies.
 
 As a part of this I asked a friend of mine(Bracket) from HyperVerge who also happens to
-the co-founder of the company to ask for introduction to machine learning.
+the co-founder of the company to point to resources which introduce machine learning.
 
 The most common suggestion is to do the Andrew NG course on machine learning.
 
