@@ -2,8 +2,8 @@
 title: Ravikanth Andhavarapu
 email: ravi@helloravi.com
 description: > # this means to ignore newlines until "baseurl:"
-A blog on team building, books, product development, programming, meditation
-and yoga by Ravikanth
+  A blog on team building, books, product development, programming, meditation
+  and yoga by Ravikanth
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://helloravi.com" # the base hostname & protocol for your site
 twitter_username: helloravikanth
