@@ -1,5 +1,4 @@
 ---
-title: Books
 layout: post
 permalink: /books/
 ---

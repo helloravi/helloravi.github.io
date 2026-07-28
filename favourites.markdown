@@ -1,5 +1,4 @@
 ---
-title: Favourites
 layout: post
 permalink: /resources/
 ---
