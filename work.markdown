@@ -1,6 +1,7 @@
 ---
 title: Work
-layout: post
+layout: page
+description: TransIn, Echojoy, Zagg Network, NPCI and Biliti Electric — what I have built and why it is relevant to assessment work.
 permalink: /work/
 ---
 

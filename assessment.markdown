@@ -1,6 +1,7 @@
 ---
 title: Assessment
-layout: post
+layout: page
+description: A two-week independent assessment of whether your data can prove what your programs actually do.
 permalink: /assessment/
 ---
 
@@ -37,6 +38,7 @@ test it against five criteria:
    programs are.
 5. **Continuity** — what happens to your reporting if the person who knows the
    spreadsheet leaves.
+{: .criteria}
 
 ## What you receive
 
@@ -77,5 +79,4 @@ I work with a small number of organizations at a time.
 A 30-minute conversation. Bring your most recent funder report and I'll tell you on
 the call whether an assessment would find anything worth the two weeks.
 
-[ravi@helloravi.com](mailto:ravi@helloravi.com) ·
-[LinkedIn](https://www.linkedin.com/in/ravikanth-andhavarapu/)
+[ravi@helloravi.com](mailto:ravi@helloravi.com){: .cta}

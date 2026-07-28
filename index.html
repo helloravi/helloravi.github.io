@@ -1,10 +1,12 @@
 ---
 layout: default
+description: I assess whether an organization's data can prove what it actually did — independent director, audit committee chair, fifteen years building data platforms.
 ---
 
-<div class="row" id="intro">
-  <div class="col-sm-offset-1 col-sm-6">
-    <div id="headline">
+<section class="hero">
+  <div class="hero-inner">
+    <div>
+      <p class="eyebrow">Independent data assessment</p>
       <h1>I find out whether an organization's data can prove what it actually did.</h1>
       <p class="lead">
         Ravikanth Andhavarapu — independent director and audit committee chair of a
@@ -12,17 +14,12 @@ layout: default
         that run them.
       </p>
     </div>
+    <img src="{{ site.baseurl }}/assets/ravi.jpg" alt="Ravikanth Andhavarapu" class="portrait">
   </div>
-  <div class="col-sm-offset-1 col-sm-3">
-    <div id="potrait">
-      <img src="{{ site.baseurl }}/assets/ravi.jpg" alt="Ravikanth Andhavarapu" class="img-circle" width="240px">
-    </div>
-  </div>
-</div>
+</section>
 
-<div class="row">
-  <div class="col-sm-offset-1 col-sm-9">
-
+<section class="home-section">
+  <div class="inner">
     <h2>The problem I work on</h2>
 
     <p>
@@ -45,33 +42,51 @@ layout: default
       worth fixing. I sit on the side of the table that asks how you know, not
       the side that sells you a system.
     </p>
+  </div>
+</section>
 
+<section class="home-section">
+  <div class="inner">
     <h2>Recent work</h2>
 
     <p>
       I read the public filings of 800 mid-sized American nonprofits to see
-      whether their reported numbers trace back to anything. In 16% of them, a
-      major revenue line moves by more than 25 percentage points in a single
-      year while total revenue stays flat — the same money, landing somewhere
-      else. It is not fraud, and it is mostly not an accounting change.
-      <a href="{{ site.baseurl }}/2026/07/28/what-800-nonprofit-filings-show.html">
-        I wrote up what it is, and what it costs.</a>
+      whether their reported numbers trace back to anything.
     </p>
 
+    <div class="stat-card">
+      <span class="figure">16%</span>
+      <p>
+        had a major revenue line move by more than 25 percentage points in a
+        single year while total revenue stayed flat — the same money, landing
+        somewhere else. It is not fraud, and it is mostly not an accounting
+        change.
+      </p>
+    </div>
+
+    <p>
+      <a href="{{ site.baseurl }}/2026/07/28/what-800-nonprofit-filings-show.html">
+        I wrote up what it is, and what it costs →</a>
+    </p>
+  </div>
+</section>
+
+<section class="home-section">
+  <div class="inner">
     <h2>How to reach me</h2>
 
     <p>
-      Email <a href="mailto:ravi@helloravi.com">ravi@helloravi.com</a> with a
-      paragraph about what you are trying to prove and to whom. I answer
-      everything, and I will say plainly if I don't think an assessment would
-      find anything worth the time.
+      Email me a paragraph about what you are trying to prove and to whom. I
+      answer everything, and I will say plainly if I don't think an assessment
+      would find anything worth the time.
     </p>
 
-    <p>
+    <p><a class="cta" href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+
+    <p style="margin-top:2rem">
       More: <a href="{{ site.baseurl }}/assessment/">the assessment I offer</a> ·
       <a href="{{ site.baseurl }}/work/">what I have built</a> ·
       <a href="{{ site.baseurl }}/writing/">writing</a>
     </p>
-
   </div>
-</div>
+</section>

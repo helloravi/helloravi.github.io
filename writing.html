@@ -2,39 +2,35 @@
 title: Writing
 layout: default
 permalink: /writing/
+description: Essays on how organizations prove their numbers, plus an archive of older writing on software teams, programming and reading.
 ---
 
-<div class="row" id="blog">
-  <div class="col-sm-offset-1 col-sm-10">
-    <div class="home">
+<article class="wrap prose">
 
-      <h1 class="page-heading">Writing</h1>
+  <header class="page-header">
+    <p class="eyebrow">Writing</p>
+    <h1>Writing</h1>
+    <p class="subtitle">
+      Recent pieces are about how organizations prove their numbers. Older ones,
+      from 2015 to 2018, are about building software teams, programming and
+      reading — kept because they are still mine, not because they describe what
+      I do now.
+    </p>
+  </header>
 
-      <p>
-        Recent pieces are about how organizations prove their numbers. Older ones,
-        from 2015 to 2018, are about building software teams, programming and
-        reading — kept because they are still mine, not because they describe what
-        I do now.
-      </p>
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+      </li>
+    {% endfor %}
+  </ul>
 
-      <ul class="post-list">
-        {% for post in site.posts %}
-          <li>
-            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-            <h2>
-              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-            </h2>
-          </li>
-        {% endfor %}
-      </ul>
+  <p class="endnote" style="margin-top:2rem">
+    Subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a>.
+    Also here: <a href="{{ site.baseurl }}/books/">books</a> and
+    <a href="{{ site.baseurl }}/resources/">favourites</a>.
+  </p>
 
-      <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-      <p>
-        Also here: <a href="{{ site.baseurl }}/books/">books</a> and
-        <a href="{{ site.baseurl }}/resources/">favourites</a>.
-      </p>
-
-    </div>
-  </div>
-</div>
+</article>

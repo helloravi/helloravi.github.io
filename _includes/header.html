@@ -1,35 +1,11 @@
-<header>
-<nav class="navbar navbar-default navbar-fixed-top" id="topnav">
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-sm-offset-1 col-md-10">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#topmenu">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="{{ site.baseurl }}/">{{ site.title }}</a>
-    </div>
-
-   <div class="collapse navbar-collapse" id="topmenu">
-      <ul class="nav navbar-nav navbar-right">
-
-
-        <!-- <li><a href="/#about" class="page-link">About</a></li> -->
-        <!-- <li><a href="/#skills" class="page-link">Skills</a></li>
-        <li><a href="/#projects" class="page-link">Projects</a></li> -->
-        <!-- <li><a href="" class="page-link">Resume</a></li> -->
-        <!-- <li><a href="/#contact" class="page-link">Contact</a></li> -->
-        {% for page in site.pages %}
-          {% if page.title %}
-          <li><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
-          {% endif %}
-        {% endfor %}
-      </ul>
-      </div>
-    </div>
+<header class="site-header">
+  <div class="wrap header-inner">
+    <a class="brand" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    <nav class="site-nav">
+      <a href="{{ site.baseurl }}/assessment/"{% if page.url contains '/assessment' %} class="current"{% endif %}>Assessment</a>
+      <a href="{{ site.baseurl }}/work/"{% if page.url contains '/work' %} class="current"{% endif %}>Work</a>
+      <a href="{{ site.baseurl }}/writing/"{% if page.url contains '/writing' %} class="current"{% endif %}>Writing</a>
+      <a href="{{ site.baseurl }}/about/"{% if page.url contains '/about' %} class="current"{% endif %}>About</a>
+    </nav>
   </div>
-</nav>
 </header>

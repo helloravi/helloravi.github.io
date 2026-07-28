@@ -1,15 +1,20 @@
 # Site settings
 title: Ravikanth Andhavarapu
 email: ravi@helloravi.com
-description: > # this means to ignore newlines until "baseurl:"
-  A blog on team building, books, product development, programming, meditation
-  and yoga by Ravikanth
+description: >
+  Independent assessment of whether an organization's data can prove what it
+  actually did. Ravikanth Andhavarapu — independent director and audit committee
+  chair, fifteen years building data platforms.
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://helloravi.com" # the base hostname & protocol for your site
+url: "https://helloravi.com" # the base hostname & protocol for your site
 twitter_username: helloravikanth
 github_username:  helloravi
 
 # Build settings
 markdown: kramdown
-# Disqus post comments
-disqus_shortname: helloravi
+
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
