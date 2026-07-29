@@ -1,5 +1,6 @@
 ---
 title: Assessment
+og_title: The two-week data assessment
 layout: page
 description: A two-week independent assessment of whether your data can prove what your organization actually did.
 permalink: /assessment/
