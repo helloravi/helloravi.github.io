@@ -430,6 +430,52 @@ blockquote {
   color: var(--ink-soft);
 }
 
+.audience-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.7rem;
+  margin-top: 1.4rem;
+  font-family: var(--sans);
+}
+
+.audience-toggle .label {
+  font-size: 0.8125rem;
+  color: var(--ink-faint);
+}
+
+.audience-toggle button {
+  font-family: var(--sans);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  padding: 0.4rem 0.95rem;
+  border: 1px solid var(--rule);
+  background: var(--paper);
+  color: var(--ink-soft);
+  cursor: pointer;
+}
+
+.audience-toggle button + button {
+  border-left: none;
+}
+
+.audience-toggle button.active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: var(--paper);
+}
+
+.problems.audience-nonprofit .scene-pair,
+.problems.audience-company .scene-pair {
+  grid-template-columns: 1fr;
+}
+
+.problems.audience-nonprofit .scene:nth-child(2),
+.problems.audience-company .scene:nth-child(1),
+.problems.audience-nonprofit .scene .who,
+.problems.audience-company .scene .who {
+  display: none;
+}
+
 .problems .cost {
   display: block;
   margin-top: 0.7rem;
@@ -438,9 +484,12 @@ blockquote {
 
   &::before {
     content: "What it costs — ";
-    color: var(--ink-faint);
-    font-weight: 600;
-    letter-spacing: 0.01em;
+    font-family: var(--sans);
+    font-size: 0.8125rem;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--accent);
+    font-weight: 800;
   }
 }
 

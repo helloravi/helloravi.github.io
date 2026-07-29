@@ -47,6 +47,11 @@ description: I assess whether an organization's data can prove what it actually 
       inside. Most organizations will recognise two of these.
     </p>
 
+    <div class="audience-toggle" data-audience-toggle hidden>
+      <span class="label">Read these as someone who runs</span>
+      <button type="button" data-audience="nonprofit" class="active" aria-pressed="true">a nonprofit</button><button type="button" data-audience="company" aria-pressed="false">a company</button>
+    </div>
+
     <ul class="problems">
       <li>
         <h3>You can produce the number, but not defend it</h3>
@@ -189,6 +194,27 @@ description: I assess whether an organization's data can prove what it actually 
     <p><a class="cta" href="mailto:{{ site.email }}">Tell me which one it was →</a></p>
   </div>
 </section>
+
+<script>
+  (function () {
+    var toggle = document.querySelector('[data-audience-toggle]');
+    var list = document.querySelector('.problems');
+    if (!toggle || !list) return;
+    toggle.hidden = false;
+    list.classList.add('audience-nonprofit');
+    toggle.addEventListener('click', function (e) {
+      var btn = e.target.closest('button[data-audience]');
+      if (!btn) return;
+      list.classList.remove('audience-nonprofit', 'audience-company');
+      list.classList.add('audience-' + btn.dataset.audience);
+      toggle.querySelectorAll('button').forEach(function (b) {
+        var active = b === btn;
+        b.classList.toggle('active', active);
+        b.setAttribute('aria-pressed', String(active));
+      });
+    });
+  })();
+</script>
 
 <section class="home-section tinted">
   <div class="inner">
