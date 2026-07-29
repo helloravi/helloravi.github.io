@@ -76,7 +76,7 @@ you have no way to check.
 electric two- and three-wheeler segment: manufacturing, go-to-market, channel
 strategy, product.
 
-**Board** — independent director and audit committee chair of a BSE-listed company.
+**Board** — independent director and audit committee chair of a publicly listed company (BSE, India).
 This is the one that shapes how I do assessments. Most of what an audit committee
 does comes down to a single question put to management: how do you know that number
 is right?

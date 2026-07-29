@@ -208,7 +208,7 @@ to be usable that way.
 ## Who I am
 
 **Ravikanth Andhavarapu** — independent director and audit committee chair of a
-BSE-listed company; 15+ years building data platforms and engineering teams.
+publicly listed company (BSE, India); 15+ years building data platforms and engineering teams.
 Currently acting CTO at Wraffle; formerly Head of Strategy at Biliti Electric and
 founding engineering lead at several ventures. IIT Madras.
 
