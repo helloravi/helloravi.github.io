@@ -769,6 +769,22 @@ td:not(:first-child), th:not(:first-child) { text-align: right; }
     gap: 2rem;
   }
 
+  /* On a phone the lead runs long enough to push the ask off screen.
+     Lift the buttons directly under the headline; the lead follows. */
+  .hero-inner > div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hero-inner .eyebrow      { order: 1; }
+  .hero-inner h1            { order: 2; margin-bottom: 0.4rem; }
+  .hero-inner .hero-actions { order: 3; margin-top: 1.2rem; }
+  .hero-inner .cta-note     { order: 4; }
+  .hero-inner .lead         { order: 5; margin-top: 1.6rem; }
+  .hero-inner .byline       { order: 6; }
+
+  .hero-actions .cta { text-align: center; }
+
   .benefits { grid-template-columns: 1fr; }
 
   .scene-pair { grid-template-columns: 1fr; gap: 1.1rem; }
