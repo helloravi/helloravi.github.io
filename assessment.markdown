@@ -1,18 +1,19 @@
 ---
 title: Assessment
-og_title: The two-week data assessment
+og_title: The Situation Assessment
 layout: page
-description: A two-week independent assessment of whether your data can prove what your organization actually did.
+description: A two-week Situation Assessment of your reporting — the workflows that produce it, and the data underneath. Independent, in writing, and it ends with a finding rather than a proposal.
 permalink: /assessment/
 ---
 
 <p class="eyebrow">The engagement</p>
 
-# The Data Assessment
+# The Situation Assessment
 
-<p class="deck">Two weeks. An independent finding on whether your data can prove
-what your organization actually did — and whether your management team can decide
-on it.</p>
+<p class="deck">Two weeks, across your reporting — the workflows that produce it,
+and the data underneath. An independent finding on whether your numbers can prove
+what your organization actually did, and whether your management team can decide
+on them.</p>
 
 ---
 
@@ -27,7 +28,7 @@ look. You're large enough to carry serious reporting obligations and small enoug
 that no one owns the data end to end. The honest answer is usually somewhere in
 between, and the interesting part is *where*.
 
-That's what the assessment establishes. Not a diagnosis I bring with me — a finding
+That's what the Situation Assessment establishes. Not a diagnosis I bring with me — a finding
 I reach after looking.
 
 <p class="pull">Reporting is the obligation. Deciding is the point.
@@ -85,7 +86,8 @@ done.
 ## What I assess
 
 Over two weeks I trace your data from where the work happens through to where it
-gets reported, and test it against five criteria:
+gets reported — the workflows in between included — and test it against five
+criteria:
 
 1. **Provenance** — for each number you report externally, can it be traced back to
    a source record? Which numbers can't?
