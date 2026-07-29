@@ -306,6 +306,70 @@ blockquote {
 
 .cta:hover { background: var(--accent-lit); color: #fff; }
 
+/* Primary + secondary pair, used in the hero and at each ask */
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1.5rem;
+  margin: 1.6rem 0 0;
+}
+
+.cta-secondary {
+  font-family: var(--sans);
+  font-size: 0.9375rem;
+  font-weight: 500;
+  color: var(--ink-soft);
+  text-decoration: none;
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: 2px;
+  transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.cta-secondary:hover {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+
+.cta-note {
+  font-family: var(--sans);
+  font-size: 0.875rem;
+  color: var(--ink-faint);
+  max-width: 34rem;
+  margin: 0.9rem 0 0;
+}
+
+/* Trigger moments — the list that lets a reader date their own problem */
+.triggers {
+  list-style: none;
+  padding: 0;
+  margin: 1.75rem 0;
+  border-top: 1px solid var(--rule);
+}
+
+.triggers > li {
+  border-bottom: 1px solid var(--rule);
+  padding: 0.95rem 0 0.95rem 1.5rem;
+  position: relative;
+  color: var(--ink-soft);
+}
+
+.triggers > li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 1.45rem;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--accent);
+}
+
+.triggers strong {
+  color: var(--ink);
+  font-weight: 600;
+}
+
 /* Numbered criteria / feature list */
 .criteria {
   list-style: none;
