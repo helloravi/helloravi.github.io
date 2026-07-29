@@ -102,6 +102,11 @@ criteria:
    spreadsheet leaves.
 {: .criteria}
 
+**What I guarantee.** Every figure in your most recent external report traced back to
+the source record it came from — or named as one that can't be, which is itself the
+finding — within ten business days of getting access. If I don't deliver that, you
+don't pay.
+
 ## What you walk away with
 
 <ul class="benefits">
@@ -126,14 +131,14 @@ can be safely left alone.</p>
 rather than by how interesting they are.</p>
 </li>
 <li>
-<h3>Independence you can check</h3>
-<p>My interest disclosed before we start. Where the finding is "do nothing", that is
-what the report says.</p>
+<h3>A plan for fixing it</h3>
+<p>What to do about each weakness, in what order, and what it takes to do it — priced,
+if you want me to do the work.</p>
 </li>
 <li>
-<h3>No lock-in</h3>
-<p>Written to be handed to any competent engineer, whether or not that engineer is
-me.</p>
+<h3>Someone who can do the build</h3>
+<p>Fifteen years of building the systems in question. Most assessments end with a
+finding nobody can act on; this one doesn't have to.</p>
 </li>
 </ul>
 
@@ -154,13 +159,14 @@ afternoon doesn't have a problem worth assessing, and one that does is messier t
 an afternoon can hold. A short call is a useful conversation, and I'm glad to have
 one — it just isn't an assessment, and I'd rather not call it one.
 
-This is a paid engagement, priced against the size of the organization. I'll quote
-it on the first call, once I know what's actually in scope.
+This is a paid engagement, priced against the size of the organization. I'll quote it
+on the first call, once I know what's actually in scope. If you go on to have the work
+done, the fee comes off the build.
 
-## What tends to happen next
+## What happens next
 
-Nothing, sometimes. A clean assessment is a finished piece of work, and it ends
-there.
+Most assessments end with a finding and a handshake, and the organization is exactly
+where it started — now with a document about it. That isn't much use to you.
 
 Where there is something to fix, it falls into four things — and the order is the
 part people get wrong.
@@ -193,22 +199,11 @@ An organization that cannot reproduce its own reported numbers will not be rescu
 by putting a model in front of them; it will get the same unreliable answer faster
 and with more confidence.
 
-If I do that build, it is a separate engagement, quoted separately, agreed after you
-have the findings in hand and not before.
-
-## Independence and disclosure
-
-You should know my interest before you start, not after.
-
-I do build data systems, and some assessments surface problems I'd be a reasonable
-person to fix. Others don't. I write the findings before I know which kind it is,
-and I'll hand you a report that recommends doing nothing if that's what I find —
-that outcome is common enough that I've stopped treating it as a failed engagement.
-
-Charging for the assessment is part of that. An assessment given away by someone who
-sells systems has an obvious pull in one direction, and I'd rather remove it than
-ask you to trust that it isn't there. If you'd prefer to close the question entirely,
-take the report to someone else to implement. It's written to be usable that way.
+I build these systems, and in most cases I'm the one who does the work that follows —
+quoted separately, agreed once you have the findings and can see what you're buying.
+Where I'd have an interest in a recommendation, I'll say so before we start rather
+than after. And if you'd rather have someone else implement it, the report is written
+to be usable that way.
 
 ## Who I am
 
