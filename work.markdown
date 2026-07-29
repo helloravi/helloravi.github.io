@@ -37,10 +37,12 @@ cash flows, vehicle tracking, and enough accumulated operating data that fleet
 owners could access cheaper financing on the strength of it.
 
 **Why this is the relevant one.** A multi-site organization with non-uniform
-procedures and a reporting obligation spanning all of it is the same shape as a
-nonprofit running several programs against several funders. The hard part isn't the
-software. It's producing one trustworthy number out of sites that each do things
-differently, without forcing them all to work the same way.
+procedures and a reporting obligation spanning all of it is the same shape as most
+of the assessment work — a nonprofit running several programs against several
+funders, or an operating company whose five departments each bought their own
+software and none of it talks. The hard part isn't the software. It's producing one
+trustworthy number out of sites that each do things differently, without forcing
+them all to work the same way.
 
 ## Echojoy — payments and loyalty, India
 

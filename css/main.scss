@@ -221,6 +221,13 @@ blockquote {
   margin-bottom: 0;
 }
 
+.hero .byline {
+  font-size: 0.875rem;
+  color: var(--ink-faint);
+  margin: 1.4rem 0 0;
+  max-width: 34rem;
+}
+
 .portrait {
   width: 190px;
   height: 190px;
@@ -330,6 +337,205 @@ blockquote {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+/* Deck — the one paragraph that carries a section, set larger */
+.deck {
+  font-family: var(--serif);
+  font-size: 1.25rem;
+  line-height: 1.45;
+  color: var(--ink);
+  max-width: 34rem;
+  margin-bottom: 1.5rem;
+  text-wrap: pretty;
+}
+
+/* Pull statement — a claim given room to breathe */
+.pull {
+  font-family: var(--serif);
+  font-size: clamp(1.35rem, 2.6vw, 1.7rem);
+  line-height: 1.3;
+  color: var(--ink);
+  border-top: 2px solid var(--accent);
+  padding-top: 1.1rem;
+  margin: 2.5rem 0;
+  max-width: 33rem;
+  text-wrap: balance;
+
+  span {
+    display: block;
+    font-family: var(--sans);
+    font-size: 0.9375rem;
+    line-height: 1.6;
+    color: var(--ink-faint);
+    margin-top: 0.85rem;
+    text-wrap: pretty;
+  }
+}
+
+/* Problems — each one named, described, and costed */
+.problems {
+  list-style: none;
+  padding: 0;
+  margin: 2rem 0 1.5rem;
+  border-top: 1px solid var(--rule);
+}
+
+.problems > li {
+  padding: 1.5rem 0;
+  border-bottom: 1px solid var(--rule);
+  margin: 0;
+}
+
+.problems h3 {
+  margin: 0 0 0.4rem;
+  font-family: var(--serif);
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+
+.problems p {
+  margin: 0;
+  color: var(--ink-soft);
+  max-width: 36rem;
+}
+
+.scene-pair {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1.5rem;
+  margin-top: 0.9rem;
+}
+
+.scene {
+  border-left: 2px solid var(--rule);
+  padding-left: 1.1rem;
+}
+
+.scene .who {
+  display: block;
+  font-family: var(--sans);
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 0.45rem;
+}
+
+.scene p {
+  margin: 0;
+  font-size: 0.9688rem;
+  line-height: 1.6;
+  color: var(--ink-soft);
+}
+
+.problems .cost {
+  display: block;
+  margin-top: 0.7rem;
+  font-size: 0.9375rem;
+  color: var(--ink);
+
+  &::before {
+    content: "What it costs — ";
+    color: var(--ink-faint);
+    font-weight: 600;
+    letter-spacing: 0.01em;
+  }
+}
+
+/* Benefits — what you actually walk away with */
+.benefits {
+  list-style: none;
+  padding: 0;
+  margin: 2rem 0;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1px;
+  background: var(--rule);
+  border: 1px solid var(--rule);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.benefits > li {
+  background: var(--paper-alt);
+  padding: 1.4rem 1.5rem;
+  margin: 0;
+}
+
+.benefits h3 {
+  margin: 0 0 0.35rem;
+  font-family: var(--sans);
+  font-size: 0.9375rem;
+  font-weight: 600;
+  color: var(--accent);
+  letter-spacing: 0;
+}
+
+.benefits p {
+  margin: 0;
+  font-size: 0.9688rem;
+  line-height: 1.55;
+  color: var(--ink-soft);
+}
+
+/* Ordered stages — the sequence, where order is the argument */
+.stages {
+  list-style: none;
+  padding: 0;
+  counter-reset: stage;
+  margin: 2rem 0;
+}
+
+.stages > li {
+  counter-increment: stage;
+  position: relative;
+  padding-left: 3.25rem;
+  padding-bottom: 1.5rem;
+  margin: 0;
+}
+
+.stages > li:not(:last-child)::after {
+  content: "";
+  position: absolute;
+  left: 0.9rem;
+  top: 2rem;
+  bottom: 0.25rem;
+  width: 1px;
+  background: var(--rule);
+}
+
+.stages > li::before {
+  content: counter(stage);
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 1.85rem;
+  height: 1.85rem;
+  border-radius: 50%;
+  background: var(--accent);
+  color: #fff;
+  font-family: var(--serif);
+  font-size: 0.9rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stages h3 {
+  margin: 0.1rem 0 0.3rem;
+  font-family: var(--sans);
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.stages p { margin: 0; color: var(--ink-soft); font-size: 0.9688rem; }
+
+/* A section set on the alternate paper, to break the run of white */
+.home-section.tinted {
+  background: var(--paper-alt);
 }
 
 /* ------------------------------------------------------------------
@@ -449,6 +655,12 @@ td:not(:first-child), th:not(:first-child) { text-align: right; }
     grid-template-columns: 1fr;
     gap: 2rem;
   }
+
+  .benefits { grid-template-columns: 1fr; }
+
+  .scene-pair { grid-template-columns: 1fr; gap: 1.1rem; }
+
+  .deck { font-size: 1.15rem; }
 
   .portrait { width: 140px; height: 140px; }
 
