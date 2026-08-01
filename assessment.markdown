@@ -221,3 +221,4 @@ lender, a regulator, or your board — and I'll tell you on the call whether an
 assessment would find anything worth the two weeks. If it wouldn't, I'll say so.
 
 [ravi@helloravi.com](mailto:ravi@helloravi.com){: .cta}
+<a class="cta-whatsapp" href="https://wa.me/{{ site.whatsapp_number }}?text=Hi%20Ravikanth%20-%20I%20came%20from%20helloravi.com.">{% include whatsapp-icon.html %}WhatsApp me</a>

@@ -196,7 +196,7 @@ blockquote {
    ------------------------------------------------------------------ */
 
 .hero {
-  padding: 4.5rem 1.5rem 3.5rem;
+  padding: 3.25rem 1.5rem 3.25rem;
   border-bottom: 1px solid var(--rule);
 }
 
@@ -208,6 +208,23 @@ blockquote {
   max-width: var(--wide);
   margin: 0 auto;
 }
+
+/* The ask sits directly under the headline, above the lead, at every width.
+   The lead runs long enough to push the buttons past the fold otherwise —
+   on a phone always, and on a laptop shorter than ~850px too. Both contact
+   routes have to be reachable without scrolling, so the explanation follows
+   the ask rather than preceding it. */
+.hero-inner > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-inner .eyebrow      { order: 1; }
+.hero-inner h1            { order: 2; margin-bottom: 0.4rem; }
+.hero-inner .hero-actions { order: 3; margin-top: 1.3rem; }
+.hero-inner .cta-note     { order: 4; }
+.hero-inner .lead         { order: 5; margin-top: 1.6rem; }
+.hero-inner .byline       { order: 6; }
 
 .hero h1 {
   font-size: clamp(2.1rem, 4.6vw, 3.15rem);
@@ -306,6 +323,40 @@ blockquote {
 
 .cta:hover { background: var(--accent-lit); color: #fff; }
 
+/* .cta is inline-block and .cta-whatsapp inline-flex; left on baseline
+   alignment they sit at different heights when a kramdown page emits them
+   as siblings in one paragraph. */
+.cta,
+.cta-whatsapp { vertical-align: middle; }
+
+/* WhatsApp — a second solid button, deliberately as heavy as the booking CTA.
+   Green, not navy, so it reads as the channel rather than as a duplicate ask.
+   #106F63 rather than the brand #25D366: the bright green fails contrast on
+   white text and fights the serif/navy palette everywhere else on the page. */
+.cta-whatsapp {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: #106F63;
+  color: #fff;
+  font-family: var(--sans);
+  font-size: 0.9375rem;
+  font-weight: 500;
+  padding: 0.7rem 1.3rem;
+  border-radius: 4px;
+  text-decoration: none;
+  transition: background 0.15s ease;
+}
+
+.cta-whatsapp:hover { background: #0B5B51; color: #fff; }
+
+.cta-whatsapp svg {
+  width: 1.05em;
+  height: 1.05em;
+  fill: currentColor;
+  flex: none;
+}
+
 /* Primary + secondary pair, used in the hero and at each ask */
 .hero-actions {
   display: flex;
@@ -314,6 +365,9 @@ blockquote {
   gap: 1.5rem;
   margin: 1.6rem 0 0;
 }
+
+/* Three actions in the hero would break the line on a narrow desktop column. */
+.hero-actions.hero-actions-three { gap: 0.9rem 1.1rem; }
 
 .cta-secondary {
   font-family: var(--sans);
@@ -769,19 +823,8 @@ td:not(:first-child), th:not(:first-child) { text-align: right; }
     gap: 2rem;
   }
 
-  /* On a phone the lead runs long enough to push the ask off screen.
-     Lift the buttons directly under the headline; the lead follows. */
-  .hero-inner > div {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .hero-inner .eyebrow      { order: 1; }
-  .hero-inner h1            { order: 2; margin-bottom: 0.4rem; }
-  .hero-inner .hero-actions { order: 3; margin-top: 1.2rem; }
-  .hero-inner .cta-note     { order: 4; }
-  .hero-inner .lead         { order: 5; margin-top: 1.6rem; }
-  .hero-inner .byline       { order: 6; }
+  /* Ordering now lives in the base rule — it applies at every width. */
+  .hero-inner .hero-actions { margin-top: 1.2rem; }
 
   .hero-actions .cta { text-align: center; }
 
