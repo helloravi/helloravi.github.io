@@ -250,7 +250,7 @@ blockquote {
   height: 190px;
   border-radius: 50%;
   object-fit: cover;
-  filter: grayscale(100%) contrast(1.03);
+  filter: contrast(1.03);
   border: 1px solid var(--rule);
 }
 
